@@ -77,23 +77,27 @@ legal-doc-pipeline/
 ├── architecture.md
 ├── assumptions_and_tradeoffs.md
 ├── evaluation.md
-├── .env                          # API key 
+├── .env                          # API key (excluded from Git)
 ├── edit_history.json             # Captured operator edits
 ├── learned_patterns.json         # Patterns extracted from edits
 ├── sample_inputs/
 │   ├── case1.pdf                 # Financial dispute (clean PDF)
-│   ├── case2_noisy.txt           # Environmental case (simulated noisy OCR)
+│   ├── case2_noisy.txt           # Environmental case (simulated OCR noise)
 │   └── case3.pdf                 # Employment dispute (clean PDF)
 ├── sample_outputs/
 │   ├── case1_draft.txt
 │   ├── case2_noisy_draft.txt
 │   └── case3_draft.txt
+├── project_artifacts/
+│   ├── screenshot1.png           # Metrics and generated draft
+│   ├── screenshot2.png           # Retrieved evidence chunks
+│   └── screenshot3.png           # Learned patterns after editing
 └── src/
     ├── processor.py              # Stage 1: Document processing
-    ├── retriever.py              # Stage 2: Retrieval
+    ├── retriever.py              # Stage 2: Evidence retrieval
     ├── generator.py              # Stage 3: Draft generation
     ├── editor.py                 # Stage 4: Human-in-the-loop editing
-    └── pipeline.py               # Pipeline orchestrator
+    └── pipeline.py               # End-to-end pipeline orchestration
 ```
 ## Stack
 
