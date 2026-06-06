@@ -8,7 +8,7 @@ A pipeline that takes messy legal documents, pulls structured information out of
 
 Most legal document workflows involve someone manually reading through PDFs, pulling out key facts, and writing a summary from scratch. This system automates that first pass. It handles noisy or scanned inputs, stays grounded in what the document actually says, and adjusts its behavior based on corrections a reviewer makes.
 
-The output type is a **Case Fact Summary** — a structured breakdown of parties, dates, claims, and relief sought, with evidence sources noted.
+The output type is a **Case Fact Summary**  a structured breakdown of parties, dates, claims, and relief sought, with evidence sources noted.
 
 ---
 
