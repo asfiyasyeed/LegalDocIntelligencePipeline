@@ -68,32 +68,33 @@ python src/editor.py         # simulate operator edit and learn patterns
 
 ---
 
-## Project Structure
+# Project Structure
+
+```text
 legal-doc-pipeline/
 ├── README.md
 ├── requirements.txt
 ├── architecture.md
 ├── assumptions_and_tradeoffs.md
 ├── evaluation.md
-├── .env                          ← API key (never commit this)
-├── edit_history.json             ← captured operator edits
-├── learned_patterns.json         ← patterns extracted from edits
+├── .env                          # API key 
+├── edit_history.json             # Captured operator edits
+├── learned_patterns.json         # Patterns extracted from edits
 ├── sample_inputs/
-│   ├── case1.pdf                 ← financial dispute (clean PDF)
-│   ├── case2_noisy.txt           ← environmental case (simulated noisy OCR)
-│   └── case3.pdf                 ← employment dispute (clean PDF)
+│   ├── case1.pdf                 # Financial dispute (clean PDF)
+│   ├── case2_noisy.txt           # Environmental case (simulated noisy OCR)
+│   └── case3.pdf                 # Employment dispute (clean PDF)
 ├── sample_outputs/
 │   ├── case1_draft.txt
 │   ├── case2_noisy_draft.txt
 │   └── case3_draft.txt
 └── src/
-├── processor.py              ← Stage 1
-├── retriever.py              ← Stage 2
-← Stage 3
-├── editor.py                 ← Stage 4
-└── pipeline.py               ← orchestrator
----
-
+    ├── processor.py              # Stage 1: Document processing
+    ├── retriever.py              # Stage 2: Retrieval
+    ├── generator.py              # Stage 3: Draft generation
+    ├── editor.py                 # Stage 4: Human-in-the-loop editing
+    └── pipeline.py               # Pipeline orchestrator
+```
 ## Stack
 
 | Tool | Purpose |
