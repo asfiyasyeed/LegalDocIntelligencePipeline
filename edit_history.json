@@ -1,0 +1,37 @@
+[
+  {
+    "doc_id": "case1",
+    "timestamp": "2026-06-05T19:37:07.829082",
+    "original_draft": "CASE FACT SUMMARY\n=================\nCASE NUMBER: CIV-2023-00451\n\nPARTIES INVOLVED:\n- Plaintiff: Rajan Mehta\n- Defendant: Apex Financial\n\nKEY DATES:\n- Not found in document\n\nCORE FACTS:\n- Loan agreement was signed\n- Fees were charged\n",
+    "edited_draft": "CASE FACT SUMMARY\n=================\nCASE NUMBER: CIV-2023-00451\nFILING DATE: March 14, 2023\n\nPARTIES INVOLVED:\n- Plaintiff: Rajan Mehta, 42 MG Road, Bengaluru\n- Defendant: Apex Financial Solutions Pvt. Ltd.\n\nKEY DATES:\n- January 5, 2022: Loan agreement signed\n- February 1, 2022: Unauthorized fees charged\n- August 15, 2022: Incorrect CIBIL report filed\n\nCORE FACTS:\n- Loan agreement signed January 5, 2022 for Rs. 12,00,000 at 14% per annum\n- Unauthorized processing fees of Rs. 45,000 charged\n- Defendant failed to provide statements despite written requests\n",
+    "diff": [
+      "--- ",
+      "+++ ",
+      "@@ -1,14 +1,18 @@",
+      " CASE FACT SUMMARY",
+      " =================",
+      " CASE NUMBER: CIV-2023-00451",
+      "+FILING DATE: March 14, 2023",
+      " ",
+      " PARTIES INVOLVED:",
+      "-- Plaintiff: Rajan Mehta",
+      "-- Defendant: Apex Financial",
+      "+- Plaintiff: Rajan Mehta, 42 MG Road, Bengaluru",
+      "+- Defendant: Apex Financial Solutions Pvt. Ltd.",
+      " ",
+      " KEY DATES:",
+      "-- Not found in document",
+      "+- January 5, 2022: Loan agreement signed",
+      "+- February 1, 2022: Unauthorized fees charged",
+      "+- August 15, 2022: Incorrect CIBIL report filed",
+      " ",
+      " CORE FACTS:",
+      "-- Loan agreement was signed",
+      "-- Fees were charged",
+      "+- Loan agreement signed January 5, 2022 for Rs. 12,00,000 at 14% per annum",
+      "+- Unauthorized processing fees of Rs. 45,000 charged",
+      "+- Defendant failed to provide statements despite written requests"
+    ],
+    "lines_changed": 16
+  }
+]

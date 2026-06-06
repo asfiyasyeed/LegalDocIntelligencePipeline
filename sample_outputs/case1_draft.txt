@@ -1,0 +1,9 @@
+CASE FACT SUMMARY
+=================
+CASE NUMBER: CIV-2023-00451  
+PARTIES: Rajan Mehta (Plaintiff), Apex Financial Solutions Pvt. Ltd. (Defendant)  
+KEY DATES: Filing Date: March 14, 2023; Loan Agreement Date: January 5, 2022; Unauthorized Processing Fees Charged: February 1, 2022; Loan Statement Requests: April 10, 2022 and June 3, 2022; Incorrect Credit Reporting: August 15, 2022  
+CORE FACTS: The Plaintiff entered into a loan agreement with the Defendant for a principal amount of Rs. 12,00,000 at an interest rate of 14% per annum with a repayment period of 24 months. The Defendant charged unauthorized processing fees, failed to provide loan statements upon request, and reported incorrect credit information.  
+CLAIMS: 1. Unauthorized processing fees of Rs. 45,000 charged on February 1, 2022. 2. Failure to provide loan statements despite written requests on April 10, 2022 and June 3, 2022. 3. Incorrect credit information reported to CIBIL on August 15, 2022.  
+RELIEF SOUGHT: Refund of unauthorized fees, correction of credit records, and damages of Rs. 2,00,000 for mental distress.  
+EVIDENCE SOURCES: Written requests for loan statements, documentation of processing fees, records of credit reporting to CIBIL.
